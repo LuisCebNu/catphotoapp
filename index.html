@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cat photo app html</title>
+    </head>
+    <body>
+        <h2>Cat photo app</h2>
+        <main>
+            <h3>Cat photos</h3>
+            <!--TODO: Add link to cat photos -->
+            <p>Click here to view more <a href="#" target="_blank">Cat photos</a></p>
+            
+            <a href="#"><img src="https://i.picsum.photos/id/40/536/354.jpg?hmac=oLuWRNp3_gs8wwh05zMWThfXpSc1LyEAnWi48JE_yMw" alt="A cute orange cat lying on his back."></a>
+            <h3>Cat list</h3>
+            <div class="lists">
+                <p>Things cat <strong><em>love</em></strong> </p>
+                <ul>
+                    <li>Cat nip</li>
+                    <li>Laser pointers</li>
+                    <li>Lasagna</li>
+                </ul>
+                <img src="Lasagna.jpg" alt="Lasagna">
+                <p>Things cats <strong>hate</strong>:</p>
+                <ol>
+                    <li>Flea treatment</li>
+                    <li>Thunder</li>
+                    <li>Ohter cats</li>
+                </ol>
+                <img src="Black_white_cats.jpg" alt="Cats">
+            </div>
+            <form action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label> <br>
+                <label for="outdoor"> <input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label> <br>
+
+                <label for="loving"><input id="loving" type="checkbox" name="personality" checked>loving</label> <br>
+
+                <label for="lazy"><input id="lazy" type="checkbox" name="personality">lazy</label> <br>
+
+                <label for="energetic"><input id="energetic" type="checkbox" name="personality">energetic</label> <br>
+
+                <input type="text" placeholder="cast photo URL" required> <br>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p><small>No Copyright <a href="https://github.com/LuisCebNu" target="_blank">-LC</a></small</p>
+        </footer>
+    </body>
+</html>
